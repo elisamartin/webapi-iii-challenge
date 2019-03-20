@@ -5,7 +5,7 @@ const validateUsername = require('./validateUsernameMiddleware');
 
 const router = express.Router();
 
-// endpoints when url begins with /api/users
+//  /api/users
 router.get('/', (req, res) => {
 	dbu
 		.get()
